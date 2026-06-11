@@ -45,9 +45,9 @@ python -m pip install PyQt5 mss pywin32 requests pillow
 
 ```python
 # ========== НАСТРОЙКИ ==========
-LLM_API_URL = "http://192.168.0.18:8000/v1/chat/completions"
-LLM_TOKEN = "token-abc123"
-LLM_MODEL = "Qwen3.6-35B-A3B-Q5-256K"
+LLM_API_URL = "LLM_API_URL"
+LLM_TOKEN = "LLM_TOKEN"
+LLM_MODEL = "LLM_MODEL_NAME"
 INTERVAL_SECONDS = 15
 SCREENSHOT_DIR = "C:/Programs/clippy.llm/Screenshots"
 ```
